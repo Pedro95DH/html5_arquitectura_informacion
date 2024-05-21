@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/imagenes/favicon.ico" />
+    <title>
+      WikiJuegos - Toda la información sobre videojuegos a tu alcance
+    </title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a
+          href="index.html"
+          style="
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          "
+          >WikiJuegos</a
+        >
+      </h1>
+      <picture>
+        <source
+          srcset="./assets/imagenes/logo-pequeno.png"
+          media="(max-width: 480px)"
+        />
+        <source
+          srcset="./assets/imagenes/logo-mediano.png"
+          media="(max-width: 1024px)"
+        />
+        <img
+          src="./assets/imagenes/logo-standart.png"
+          alt="WikiJuegos Logo"
+          sizes="(min-width: 1024px) 100vw, (min-width: 480px) 50vw, 33vw"
+        />
+      </picture>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="/">Sobre nosotros</a></li>
+          <li><a href="/">Contacto</a></li>
+          <li><a href="#videojuegos">Videojuegos</a></li>
+          <ul>
+            <li><a href="#crash">Crash Bandicoot</a></li>
+            <li><a href="#sonic">Sonic</a></li>
+            <li><a href="#ape_escape">Ape Escape</a></li>
+            <li><a href="#tekken">Tekken</a></li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="videojuegos">Todos los Juegos</h1>
+      <article>
+        <section id="crash">
+          <h3>Crash Bandicoot</h3>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/2/22/Crash_bandicoot_logo.png"
+              alt="Logo de Crash Bandicoot"
+              style="width: 200px"
+            />
+            <figcaption>Logo de Crash Bandicoot</figcaption>
+          </figure>
+        </section>
+
+        <section id="sonic">
+          <h3>Sonic</h3>
+
+          <figure>
+            <img
+              src="https://i.pinimg.com/736x/19/d2/31/19d2319ec30f9258c17ccb36819412f1.jpg"
+              alt="Logo de Sonic"
+              style="width: 200px"
+            />
+            <figcaption>Logo de Sonic</figcaption>
+          </figure>
+        </section>
+
+        <section id="ape_escape">
+          <h3>Ape Escape</h3>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/1/13/Ape_Escape_Logo.png"
+              alt="Logo de Ape Escape"
+              style="width: 200px"
+            />
+            <figcaption>Logo de Ape Escape</figcaption>
+          </figure>
+        </section>
+
+        <section id="tekken">
+          <h3>Tekken</h3>
+          <figure>
+            <img
+              src="https://i.pinimg.com/originals/01/77/28/017728acd59774567f02a2312fbd8566.png"
+              alt="Logo de Tekken"
+              style="width: 200px"
+            />
+            <figcaption>Logo de Tekken</figcaption>
+          </figure>
+        </section>
+      </article>
+    </main>
+
+    <aside>
+      <h3>Espacio Publicitario</h3>
+      <a href="https://www.coca-cola.com/es/es">
+        <img
+          src="./assets/imagenes/cola.jpg"
+          alt="Anuncio coca-cola"
+          style="width: 200px"
+        />
+      </a>
+    </aside>
+    <footer>
+        <p>Pedro Díaz - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
