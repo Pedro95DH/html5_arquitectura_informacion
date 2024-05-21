@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Pedro Díaz"/>
-    <meta name="description" content="Mi primer proyecto en Master de Desarrollo Web"/>
-    <meta name="keywords" content="Videojuegos, Wiki, Juegos, Consolas">
+    <meta name="author" content="Pedro Díaz" />
+    <meta
+      name="description"
+      content="Mi primer proyecto en Master de Desarrollo Web"
+    />
+    <meta name="keywords" content="Videojuegos, Wiki, Juegos, Consolas" />
     <link rel="icon" href="./assets/imagenes/favicon.ico" />
     <title>
       WikiJuegos - Toda la información sobre videojuegos a tu alcance
@@ -30,24 +33,18 @@
         />
         <source
           srcset="./assets/imagenes/logo-mediano.png"
-          media="(max-width: 374px)"
+          media="(max-width: 1024px)"
         />
         <img
           src="./assets/imagenes/logo-standart.png"
           alt="WikiJuegos Logo"
-          sizes="(min-width: 374px) 100vw, (min-width: 480px) 50vw, 33vw"
+          sizes="(min-width: 1024px) 100vw, (min-width: 480px) 50vw, 33vw"
         />
       </picture>
       <nav>
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="#videojuegos">Videojuegos</a></li>
-          <ul>
-            <li><a href="#crash">Crash Bandicoot</a></li>
-            <li><a href="#sonic">Sonic</a></li>
-            <li><a href="#ape_escape">Ape Escape</a></li>
-            <li><a href="#tekken">Tekken</a></li>
-          </ul>
           <li><a href="/">Sobre nosotros</a></li>
           <li><a href="#trabajo">Trabaja con Nosotros</a></li>
         </ul>
@@ -58,7 +55,7 @@
       <h1 id="videojuegos">Todas las Secciones</h1>
       <article>
         <h2>Todos los Videojuegos</h2>
-        <section id="crash">
+        <section>
           <h3>Crash Bandicoot</h3>
           <figure>
             <img
@@ -68,9 +65,15 @@
             />
             <figcaption>Logo de Crash Bandicoot</figcaption>
           </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            similique, quis sint sunt numquam id. Nam consectetur exercitationem
+            nobis ipsam impedit quos commodi, tempora culpa repudiandae omnis
+            qui magni dolores?
+          </p>
         </section>
 
-        <section id="sonic">
+        <section>
           <h3>Sonic</h3>
           <figure>
             <img
@@ -80,9 +83,15 @@
             />
             <figcaption>Logo de Sonic</figcaption>
           </figure>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ex
+            voluptatem rerum velit, natus dicta consectetur, recusandae tempore
+            eum distinctio nulla dignissimos hic et. Qui minima ipsum
+            perspiciatis nostrum quidem!
+          </p>
         </section>
 
-        <section id="ape_escape">
+        <section>
           <h3>Ape Escape</h3>
           <figure>
             <img
@@ -92,9 +101,15 @@
             />
             <figcaption>Logo de Ape Escape</figcaption>
           </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+            tempore repellendus sed, delectus adipisci, aperiam vel in commodi
+            modi possimus cumque? Voluptatibus quo ea placeat quibusdam
+            assumenda quia iusto qui?
+          </p>
         </section>
 
-        <section id="tekken">
+        <section>
           <h3>Tekken</h3>
           <figure>
             <img
@@ -104,6 +119,12 @@
             />
             <figcaption>Logo de Tekken</figcaption>
           </figure>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+            earum quo ea, fuga aspernatur atque ab. Ipsam, exercitationem fuga
+            odit explicabo harum dolorum doloremque hic temporibus officia
+            corrupti nobis rem.
+          </p>
         </section>
       </article>
 
@@ -124,8 +145,19 @@
               placeholder="Correo electrónico"
               required="yes"
             />
-            <input type="text" name="Asunto" placeholder="Asunto" required="yes" />
-            <input type="text" name="mensaje" placeholder="Hablanos de tí" maxlength="800" />
+            <input
+              type="text"
+              name="Asunto"
+              placeholder="Asunto"
+              required="yes"
+            />
+            <textarea
+              name="datos"
+              placeholder="Hablanos de tí"
+              rows="5"
+              cols="30"
+              maxlength="800"
+            ></textarea>
             <input type="submit" value="Enviar" />
           </form>
         </section>
